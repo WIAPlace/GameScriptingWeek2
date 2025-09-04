@@ -1,1 +1,120 @@
-Words
+Activity 1 
+___________________
+
+Initilize String called stringPhrase = " "
+
+print "enter a phrase"
+stringPhrase = User input
+
+Convert stringPhrase into a character array called Phrase
+
+For each character in Phrase
+  if character is not space or null or already capitalized
+    char-=32
+  else if character = space or already capitalized
+    nothing
+  else 
+    end for statement.
+
+Print new Phrase
+
+Activity 2
+___________________
+
+Initilize int array Num = 2
+
+Initilize int holder
+initilize int x = 0
+
+while x<2 
+  holder = user input
+
+  if holder != int 
+    "Re input an int"
+     x-=1
+  else
+    Num(x) = holder
+
+  x+=1
+//end of while loop
+
+Holder = Num(0) + Num(1)
+print holder 
+
+
+Activity 3
+________________
+Initilize int Num 
+
+Initilize int holder
+initilize bool continue = true
+
+initilize character userContine
+
+//While loop to get User's Input
+while continue == true 
+  holder = user input
+
+  if holder != int 
+    "Re input an int"
+  else
+    Num+=holder
+
+  // Ask User if they want to continue
+  print "do you want to continue? Y/N"
+  userContinue = user input
+  if userContinue != Y
+    continue = False
+  
+//end of while loop
+
+print Num
+
+
+Activity 4
+_____________________
+Initilize maxNum=0
+Initilize bool continue = true
+Initilize char userChoice = Y
+
+While continue = True
+  Initilize int randNum = 0
+
+  print "Set max Number"
+  maxNumber = user input (as long as it is an Int) Else User is forced to re input a int.
+
+  randNum = a random number between 0 and max Number (inclusive)
+
+  print randNum 
+
+  print Would you like to continue? Y/N
+  userChoice = user input
+  if userChoice != Y
+    continue = false
+
+//End of While Loop
+
+
+Activity 5
+____________________
+Initilize an int called counter = 0
+Initilize an int called randNum = 0
+Initilize an int called leftCount = 0
+Initilize an int called rightCount = 0
+
+While counter < 10
+  counter+=1
+  
+  randNum = a random number (exclude 0)
+  randNum = randNum % 2
+  
+  if randNum=0
+    print "RIGHT"
+    rightCount += 1
+  else
+    print "LEFT"
+    leftCount += 1
+
+//End of While Loop 
+print "Right: " rightCount
+print "Left: " leftCountz 
